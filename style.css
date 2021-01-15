@@ -1,0 +1,254 @@
+i {
+  cursor: pointer;
+}
+
+.carousel-item {
+  height: 600px;
+}
+.carousel-item img {
+  height: 600px;
+}
+
+img {
+  width: 150px;
+}
+.number-input input[type="number"] {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.number-input input[type="number"]::-webkit-inner-spin-button,
+.number-input input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.number-input {
+  margin-bottom: 2rem;
+}
+
+.number-input button {
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 0;
+  position: relative;
+}
+
+.number-input button:before,
+.number-input button:after {
+  display: inline-block;
+  position: absolute;
+  content: "";
+  height: 2px;
+  transform: translate(-50%, -50%);
+}
+
+.number-input button.plus:after {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.number-input input[type="number"] {
+  text-align: center;
+}
+
+.number-input.number-input {
+  border: 1px solid #ced4da;
+  width: 10rem;
+  border-radius: 0.25rem;
+}
+
+.number-input.number-input button {
+  width: 2.6rem;
+  height: 0.7rem;
+}
+
+.number-input.number-input button.minus {
+  padding-left: 10px;
+}
+
+.number-input.number-input button:before,
+.number-input.number-input button:after {
+  width: 0.7rem;
+  background-color: #495057;
+}
+
+.number-input.number-input input[type="number"] {
+  max-width: 4rem;
+  padding: 0.5rem;
+  border: 1px solid #ced4da;
+  border-width: 0 1px;
+  font-size: 1rem;
+  height: 2rem;
+  color: #495057;
+}
+
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance: none) and (stroke-color: transparent) {
+    .number-input.def-number-input.safari_only button:before,
+    .number-input.def-number-input.safari_only button:after {
+      margin-top: -0.3rem;
+    }
+  }
+}
+.blue-border {
+  border-top: 2px solid #4285f4;
+}
+.shopping-cart .def-number-input.number-input {
+  border: none;
+}
+.shopping-cart .def-number-input.number-input input[type="number"] {
+  max-width: 2rem;
+  border: none;
+}
+.shopping-cart .def-number-input.number-input input[type="number"].black-text,
+.shopping-cart .def-number-input.number-input input.btn.btn-link[type="number"],
+.shopping-cart
+  .def-number-input.number-input
+  input.md-toast-close-button[type="number"]:hover,
+.shopping-cart
+  .def-number-input.number-input
+  input.md-toast-close-button[type="number"]:focus {
+  color: #212529 !important;
+}
+.shopping-cart .def-number-input.number-input button {
+  width: 1rem;
+}
+.shopping-cart .def-number-input.number-input button:before,
+.shopping-cart .def-number-input.number-input button:after {
+  width: 0.5rem;
+}
+.shopping-cart .def-number-input.number-input button.minus:before,
+.shopping-cart .def-number-input.number-input button.minus:after {
+  background-color: #9e9e9e;
+}
+.shopping-cart .def-number-input.number-input button.plus:before,
+.shopping-cart .def-number-input.number-input button.plus:after {
+  background-color: #4285f4;
+}
+.shopping-cart .def-number-input.number-input.mt-n05 {
+  margin-top: -0.33rem;
+}
+
+.shopping-cart .back-link {
+  position: absolute;
+  bottom: 0;
+}
+@import url("https://fonts.googleapis.com/css?family=Alegreya+Sans:100");
+
+body {
+  margin: 0;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 100;
+}
+.container {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 7px;
+}
+header {
+  background-color: rgb(51, 51, 51);
+  width: 100%;
+  height: 43px;
+}
+#logo {
+  color: white;
+  font-size: 22px;
+  position: absolute;
+  top: 8px;
+  left: 12%;
+  float: left;
+  margin-top: 1px;
+}
+#logo:hover {
+  cursor: pointer;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+nav {
+  position: absolute;
+  left: 19%;
+  margin-top: 4px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  margin-right: 70px;
+  font-size: 18px;
+}
+nav a:hover {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+.right {
+  float: right;
+}
+#search {
+  position: absolute;
+  right: 244px;
+  margin-top: 7px;
+  color: white;
+  font-weight: normal;
+}
+#search:hover {
+  opacity: 0.5;
+  transition: 0.3s;
+  cursor: pointer;
+}
+#lock {
+  filter: grayscale(1);
+
+  width: 40px;
+}
+#lock:hover {
+  opacity: 0.5;
+  transition: 0.3s;
+  cursor: pointer;
+  filter: grayscale(1);
+}
+.banner {
+  background: url("http://mateen.kurdzman.net/ban.png") no-repeat;
+  width: 100%;
+  height: 585px;
+  background-position: center;
+  background-size: cover;
+}
+main,
+body {
+  background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
+}
+#PRODUCT {
+  display: flex;
+  justify-content: center;
+  color: antiquewhite;
+}
+.card-header h2 {
+  display: flex;
+  justify-content: center;
+}
+
+#lol {
+  height: 400px;
+  width: auto;
+}
+#lols {
+  width: 100px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  margin: 19% 0% 26%;
+}
+.col-lg-6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.active,
+.form-control,
+.mb-4 py-2 mt-lg-0 mt-4 text-center font-weight-bold text-uppercase {
+  color: aliceblue !important;
+}
